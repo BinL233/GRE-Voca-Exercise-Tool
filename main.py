@@ -14,7 +14,7 @@ print("Max row: " + sheet1.dimensions)
 min = int(input("Choose the min position of words list: "))
 max = int(input("Choose the max position of words list: "))
 
-for x in range(min, max + 1):
+while True:
     value = random.randint(min, max)
     ques = sheet1["I" + str(value)].value
     print(ques)
