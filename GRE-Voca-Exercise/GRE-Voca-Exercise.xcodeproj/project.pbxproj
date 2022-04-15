@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3BF086B28090CF0005414E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF086A28090CF0005414E9 /* AppDelegate.swift */; };
+		B3BF086D28090CF0005414E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF086C28090CF0005414E9 /* SceneDelegate.swift */; };
+		B3BF086F28090CF0005414E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF086E28090CF0005414E9 /* ViewController.swift */; };
+		B3BF087228090CF0005414E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BF087028090CF0005414E9 /* Main.storyboard */; };
+		B3BF087428090CF4005414E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BF087328090CF4005414E9 /* Assets.xcassets */; };
+		B3BF087728090CF4005414E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BF087528090CF4005414E9 /* LaunchScreen.storyboard */; };
+		B3BF088228090CF4005414E9 /* GRE_Voca_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF088128090CF4005414E9 /* GRE_Voca_ExerciseTests.swift */; };
+		B3BF088C28090CF4005414E9 /* GRE_Voca_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF088B28090CF4005414E9 /* GRE_Voca_ExerciseUITests.swift */; };
+		B3BF088E28090CF4005414E9 /* GRE_Voca_ExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF088D28090CF4005414E9 /* GRE_Voca_ExerciseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3BF087E28090CF4005414E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3BF085F28090CF0005414E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3BF086628090CF0005414E9;
+			remoteInfo = "GRE-Voca-Exercise";
+		};
+		B3BF088828090CF4005414E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3BF085F28090CF0005414E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3BF086628090CF0005414E9;
+			remoteInfo = "GRE-Voca-Exercise";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3BF086728090CF0005414E9 /* GRE-Voca-Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GRE-Voca-Exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BF086A28090CF0005414E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3BF086C28090CF0005414E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B3BF086E28090CF0005414E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3BF087128090CF0005414E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3BF087328090CF4005414E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3BF087628090CF4005414E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3BF087828090CF4005414E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3BF087D28090CF4005414E9 /* GRE-Voca-ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GRE-Voca-ExerciseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BF088128090CF4005414E9 /* GRE_Voca_ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRE_Voca_ExerciseTests.swift; sourceTree = "<group>"; };
+		B3BF088728090CF4005414E9 /* GRE-Voca-ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GRE-Voca-ExerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BF088B28090CF4005414E9 /* GRE_Voca_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRE_Voca_ExerciseUITests.swift; sourceTree = "<group>"; };
+		B3BF088D28090CF4005414E9 /* GRE_Voca_ExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRE_Voca_ExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3BF086428090CF0005414E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BF087A28090CF4005414E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BF088428090CF4005414E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3BF085E28090CF0005414E9 = {
+			isa = PBXGroup;
+			children = (
+				B3BF086928090CF0005414E9 /* GRE-Voca-Exercise */,
+				B3BF088028090CF4005414E9 /* GRE-Voca-ExerciseTests */,
+				B3BF088A28090CF4005414E9 /* GRE-Voca-ExerciseUITests */,
+				B3BF086828090CF0005414E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3BF086828090CF0005414E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3BF086728090CF0005414E9 /* GRE-Voca-Exercise.app */,
+				B3BF087D28090CF4005414E9 /* GRE-Voca-ExerciseTests.xctest */,
+				B3BF088728090CF4005414E9 /* GRE-Voca-ExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3BF086928090CF0005414E9 /* GRE-Voca-Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				B3BF086A28090CF0005414E9 /* AppDelegate.swift */,
+				B3BF086C28090CF0005414E9 /* SceneDelegate.swift */,
+				B3BF086E28090CF0005414E9 /* ViewController.swift */,
+				B3BF087028090CF0005414E9 /* Main.storyboard */,
+				B3BF087328090CF4005414E9 /* Assets.xcassets */,
+				B3BF087528090CF4005414E9 /* LaunchScreen.storyboard */,
+				B3BF087828090CF4005414E9 /* Info.plist */,
+			);
+			path = "GRE-Voca-Exercise";
+			sourceTree = "<group>";
+		};
+		B3BF088028090CF4005414E9 /* GRE-Voca-ExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3BF088128090CF4005414E9 /* GRE_Voca_ExerciseTests.swift */,
+			);
+			path = "GRE-Voca-ExerciseTests";
+			sourceTree = "<group>";
+		};
+		B3BF088A28090CF4005414E9 /* GRE-Voca-ExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3BF088B28090CF4005414E9 /* GRE_Voca_ExerciseUITests.swift */,
+				B3BF088D28090CF4005414E9 /* GRE_Voca_ExerciseUITestsLaunchTests.swift */,
+			);
+			path = "GRE-Voca-ExerciseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3BF086628090CF0005414E9 /* GRE-Voca-Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3BF089128090CF4005414E9 /* Build configuration list for PBXNativeTarget "GRE-Voca-Exercise" */;
+			buildPhases = (
+				B3BF086328090CF0005414E9 /* Sources */,
+				B3BF086428090CF0005414E9 /* Frameworks */,
+				B3BF086528090CF0005414E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GRE-Voca-Exercise";
+			productName = "GRE-Voca-Exercise";
+			productReference = B3BF086728090CF0005414E9 /* GRE-Voca-Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3BF087C28090CF4005414E9 /* GRE-Voca-ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3BF089428090CF4005414E9 /* Build configuration list for PBXNativeTarget "GRE-Voca-ExerciseTests" */;
+			buildPhases = (
+				B3BF087928090CF4005414E9 /* Sources */,
+				B3BF087A28090CF4005414E9 /* Frameworks */,
+				B3BF087B28090CF4005414E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3BF087F28090CF4005414E9 /* PBXTargetDependency */,
+			);
+			name = "GRE-Voca-ExerciseTests";
+			productName = "GRE-Voca-ExerciseTests";
+			productReference = B3BF087D28090CF4005414E9 /* GRE-Voca-ExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3BF088628090CF4005414E9 /* GRE-Voca-ExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3BF089728090CF4005414E9 /* Build configuration list for PBXNativeTarget "GRE-Voca-ExerciseUITests" */;
+			buildPhases = (
+				B3BF088328090CF4005414E9 /* Sources */,
+				B3BF088428090CF4005414E9 /* Frameworks */,
+				B3BF088528090CF4005414E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3BF088928090CF4005414E9 /* PBXTargetDependency */,
+			);
+			name = "GRE-Voca-ExerciseUITests";
+			productName = "GRE-Voca-ExerciseUITests";
+			productReference = B3BF088728090CF4005414E9 /* GRE-Voca-ExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3BF085F28090CF0005414E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B3BF086628090CF0005414E9 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					B3BF087C28090CF4005414E9 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = B3BF086628090CF0005414E9;
+					};
+					B3BF088628090CF4005414E9 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = B3BF086628090CF0005414E9;
+					};
+				};
+			};
+			buildConfigurationList = B3BF086228090CF0005414E9 /* Build configuration list for PBXProject "GRE-Voca-Exercise" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3BF085E28090CF0005414E9;
+			productRefGroup = B3BF086828090CF0005414E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3BF086628090CF0005414E9 /* GRE-Voca-Exercise */,
+				B3BF087C28090CF4005414E9 /* GRE-Voca-ExerciseTests */,
+				B3BF088628090CF4005414E9 /* GRE-Voca-ExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3BF086528090CF0005414E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BF087728090CF4005414E9 /* LaunchScreen.storyboard in Resources */,
+				B3BF087428090CF4005414E9 /* Assets.xcassets in Resources */,
+				B3BF087228090CF0005414E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BF087B28090CF4005414E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BF088528090CF4005414E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3BF086328090CF0005414E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BF086F28090CF0005414E9 /* ViewController.swift in Sources */,
+				B3BF086B28090CF0005414E9 /* AppDelegate.swift in Sources */,
+				B3BF086D28090CF0005414E9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BF087928090CF4005414E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BF088228090CF4005414E9 /* GRE_Voca_ExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BF088328090CF4005414E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BF088E28090CF4005414E9 /* GRE_Voca_ExerciseUITestsLaunchTests.swift in Sources */,
+				B3BF088C28090CF4005414E9 /* GRE_Voca_ExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3BF087F28090CF4005414E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3BF086628090CF0005414E9 /* GRE-Voca-Exercise */;
+			targetProxy = B3BF087E28090CF4005414E9 /* PBXContainerItemProxy */;
+		};
+		B3BF088928090CF4005414E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3BF086628090CF0005414E9 /* GRE-Voca-Exercise */;
+			targetProxy = B3BF088828090CF4005414E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3BF087028090CF0005414E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3BF087128090CF0005414E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3BF087528090CF4005414E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3BF087628090CF4005414E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3BF088F28090CF4005414E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3BF089028090CF4005414E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3BF089228090CF4005414E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3AJS3U748;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GRE-Voca-Exercise/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GRE-Voca-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3BF089328090CF4005414E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3AJS3U748;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GRE-Voca-Exercise/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GRE-Voca-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B3BF089528090CF4005414E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3AJS3U748;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GRE-Voca-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GRE-Voca-Exercise.app/GRE-Voca-Exercise";
+			};
+			name = Debug;
+		};
+		B3BF089628090CF4005414E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3AJS3U748;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GRE-Voca-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GRE-Voca-Exercise.app/GRE-Voca-Exercise";
+			};
+			name = Release;
+		};
+		B3BF089828090CF4005414E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3AJS3U748;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GRE-Voca-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GRE-Voca-Exercise";
+			};
+			name = Debug;
+		};
+		B3BF089928090CF4005414E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3AJS3U748;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GRE-Voca-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GRE-Voca-Exercise";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3BF086228090CF0005414E9 /* Build configuration list for PBXProject "GRE-Voca-Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BF088F28090CF4005414E9 /* Debug */,
+				B3BF089028090CF4005414E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3BF089128090CF4005414E9 /* Build configuration list for PBXNativeTarget "GRE-Voca-Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BF089228090CF4005414E9 /* Debug */,
+				B3BF089328090CF4005414E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3BF089428090CF4005414E9 /* Build configuration list for PBXNativeTarget "GRE-Voca-ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BF089528090CF4005414E9 /* Debug */,
+				B3BF089628090CF4005414E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3BF089728090CF4005414E9 /* Build configuration list for PBXNativeTarget "GRE-Voca-ExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BF089828090CF4005414E9 /* Debug */,
+				B3BF089928090CF4005414E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3BF085F28090CF0005414E9 /* Project object */;
+}
